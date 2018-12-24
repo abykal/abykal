@@ -1,32 +1,33 @@
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans|Roboto");
 
 body {
-  color: #000;
-  background-color: #fff;
   font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI",
     "Fira Sans", Avenir, "Helvetica Neue", "Lucida Grande", sans-serif;
   
   text-align: center;
   margin: 0;
+  padding: 50px;
+  height: 100vh;
 }
+
 
 .ak {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
 }
 
 h1 {
-    display: inline-block;
-    border-right: 2px solid rgba(0, 0, 0, 0.3);
-    margin: 0;
-    margin-right: 20px;
-    padding: 10px 23px 10px 0;
-    font-size: 36px;
-    font-weight: 500;
-  }
+  display: inline-block;
+  border-right: 2px solid rgba(0, 0, 0, 0.3);
+  margin: 0;
+  margin-right: 20px;
+  padding: 10px 23px 10px 0;
+  font-size: 36px;
+  font-weight: 500;
+}
 
 .desc {
   display: inline-block;
@@ -50,3 +51,24 @@ h2 {
   0%   { opacity: 0; }
   100% { opacity: 1; }
 }
+
+/** COLOR THEMES - TEXT and BG **/
+.std-text-bg{
+  color: #212F3C  ;
+  background-color: #fff;
+  
+}
+
+.xmas-text-bg{
+  color: #F0F8FF;
+  background: #B22222 url("./asset/xmas.jpg") no-repeat center;
+  background-size: cover;
+}
+
+
+.newyr-text-bg{
+  color: #F0F8FF;
+  background: #1C2833 url('./asset/fire.jpg') no-repeat center;
+  background-size: cover;
+}
+
