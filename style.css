@@ -1,9 +1,40 @@
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans|Roboto");
 
+/*-----------------------------------*\
+  $RESET
+\*-----------------------------------*/
+
+body {
+  overflow-x: hidden;
+}
+
+*, :before, :after {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+input, select, button, textarea {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+
+  font: inherit;
+  color: inherit;
+}
+
+/* ************************************ */
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI",
     "Fira Sans", Avenir, "Helvetica Neue", "Lucida Grande", sans-serif;
-  
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+
+  overflow: hidden-x;
   text-align: center;
   margin: 0;
   padding: 50px;
@@ -53,11 +84,30 @@ h2 {
 }
 
 /** COLOR THEMES - TEXT and BG **/
-.std-text-bg{
-  color: #212F3C  ;
+.std-text-bg {
+  /*color: #212F3C  ;
   background-color: #fff;
-  
+  color: #f35626;*/
+
+  color: #ffffff ;
+  background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+  background-image: linear-gradient(92deg, #f35626, #feab3a);
+  /*-webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  text-fill-color: transparent;*/
+
+  -webkit-animation: hue 6s infinite linear;
+  -moz-animation: hue 6s infinite linear;
+  animation: hue 6s infinite linear;
 }
+
+/*-----------------------------------*
+  $SPECIAL-DAYS BG
+ *-----------------------------------*/
 
 .xmas-text-bg{
   color: #F0F8FF;
@@ -72,3 +122,28 @@ h2 {
   background-size: cover;
 }
 
+/*-----------------------------------*
+  $ANIMATIONS
+ *-----------------------------------*/
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
+@keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+    filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+    filter: hue-rotate(-360deg);
+  }
+}
