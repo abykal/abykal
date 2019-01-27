@@ -37,10 +37,16 @@ body {
   overflow: hidden-x;
   text-align: center;
   margin: 0;
-  padding: 50px;
   height: 100vh;
+  color: #F0F8FF;
 }
 
+#bg-cycle {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(92deg, #f35626, #feab3a);
+  animation: hue 60s infinite linear;
+}
 
 .ak {
   display: flex;
@@ -48,6 +54,8 @@ body {
   align-items: center;
   justify-content: center;
   height: 100%;
+  padding: 50px;
+  
 }
 
 h1 {
@@ -69,7 +77,7 @@ h1 {
 }
 
 
-h2 {
+h3 {
   font-size: 18px;
   font-weight: normal;
   line-height: inherit;
@@ -78,32 +86,7 @@ h2 {
   animation: appear 2s;
 }
 
-@keyframes appear {
-  0%   { opacity: 0; }
-  100% { opacity: 1; }
-}
 
-/** COLOR THEMES - TEXT and BG **/
-.std-text-bg {
-  /*color: #212F3C  ;
-  background-color: #fff;
-  color: #f35626;*/
-
-  color: #ffffff ;
-  background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
-  background-image: linear-gradient(92deg, #f35626, #feab3a);
-  /*-webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
-
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-  text-fill-color: transparent;*/
-
-  -webkit-animation: hue 6s infinite linear;
-  -moz-animation: hue 6s infinite linear;
-  animation: hue 6s infinite linear;
-}
 
 /*-----------------------------------*
   $SPECIAL-DAYS BG
@@ -125,6 +108,11 @@ h2 {
 /*-----------------------------------*
   $ANIMATIONS
  *-----------------------------------*/
+@keyframes appear {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 
 @-webkit-keyframes hue {
   from {
@@ -147,3 +135,23 @@ h2 {
     filter: hue-rotate(-360deg);
   }
 }
+
+/*-----------------------------------*
+  $MEDIA_QUERY
+ *-----------------------------------*/
+ @media only screen and (max-width: 600px) {
+   .ak {
+     flex-direction: column;
+   }
+
+   h1 {
+    display: inline-block;
+    border-right: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    margin: 0;
+    margin-right: 20px;
+    padding: 10px 23px 10px 0;
+    font-size: 36px;
+    font-weight: 500;
+  }
+ } 
