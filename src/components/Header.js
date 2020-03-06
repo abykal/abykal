@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Contacts from './Contacts'
+
 const Header = () => {
     return (
         <div>
@@ -9,6 +11,7 @@ const Header = () => {
             I develop and maintain company websites and experiment on React, Node, AWS, Dockers and Kubernetes. 
             I can't shut up about test-driven development and utility-first CSS. 
             I started sharing what I learn on <a href="blog.abykal.me">my blog</a>.</p>
+            <Contacts />
         </div>
     )
 }

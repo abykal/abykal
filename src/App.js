@@ -1,19 +1,13 @@
 import React from 'react';
 
 import Header from './components/Header'
-import Contacts from './components/Contacts'
-import Projects from './components/Projects'
-import Blogs from './components/Blogs'
-import Footer from './components/Footer'
+import SuperBody from './components/SuperBody'
 
 function App() {
   return (
     <div className="">
       <Header />
-      <Contacts />
-      <Projects />
-      <Blogs />
-      <Footer />
+      <SuperBody />
     </div>
   );
 }

@@ -3,7 +3,9 @@ import React from 'react'
 const Contacts = () => {
     return (
         <div>
-            Contacts
+            <img />
+            <p>Twitter</p>
+            <p>GitHub</p>
         </div>
     )
 }

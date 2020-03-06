@@ -3,7 +3,11 @@ import React from 'react'
 const Blogs = () => {
     return (
         <div>
-            Blogs
+            <ul>
+                <li>Blog3</li>
+                <li>Blog2</li>
+                <li>Blog1</li>
+            </ul>
         </div>
     )
 }
