@@ -2,14 +2,12 @@ import React from 'react'
 
 import Projects from './Projects'
 import Blogs from './Blogs'
-import Footer from './Footer'
+
 
 const SuperBody = () => {
     return (
-        <div>
+        <div className="static p-8 lg:max-w-536 lg:max-w-736 lg:absolute lg:right-0 lg:py-20 lg:pr-20 md:pl-0">
             <Projects />
-            <Blogs />
-            <Footer />
         </div>
     )
 }
