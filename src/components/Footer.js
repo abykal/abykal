@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className="bottom-0 h-5 text-white">
+        <div className="text-gray-900">
             Design from Google
         </div>
     )

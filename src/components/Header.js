@@ -1,13 +1,15 @@
 import React from 'react'
 
 import Contacts from './Contacts'
+import Footer from './Footer'
 
 const Header = () => {
     return (
       <div className="static flex flex-col justify-between w-full p-8 lg:max-w-408 lg:max-w-496 lg:fixed lg:h-screen lg:py-88 lg:pl-88 md:pr-0">
         <div className="flex flex-col">
+          
           <h1 className="font-head text-5xl font-bold leading-tight lg:text-6xl lg:leading-none">
-            Hello, I'm Aby Kal
+            Hello, I'm <span className="block">Aby Abraham</span>
           </h1>
           <p className="text-gray-500 leading-loose mt-8">
             I’m an IT Administrator currently managing IT and software
@@ -21,6 +23,7 @@ const Header = () => {
             <a href="blog.abykal.me">my blog</a>.
           </p>
           <Contacts />
+          <Footer />
         </div>
       </div>
     );

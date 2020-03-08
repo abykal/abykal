@@ -2,14 +2,15 @@ import React from 'react';
 
 import Header from './components/Header'
 import SuperBody from './components/SuperBody'
-import Footer from './components/Footer'
+import Greetings from './components/Greetings'
+
 
 function App() {
   return (
     <div>
+      <Greetings />
       <Header />
       <SuperBody />
-      <Footer />
     </div>
   );
 }
