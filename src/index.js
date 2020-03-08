@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import './index.css'
+import './styles/test.css'
 import './kal.css';
 import App from './App';
 

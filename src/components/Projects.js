@@ -9,10 +9,10 @@ const Projects = () => {
       <div className="flex flex-wrap -my-4 lg:-m-4 group pt-8 pb-9 lg:py-0" >
         {[1, 2, 3, 4].map((index) => (
           <article
-            className="flex-none w-full my-1 lg:m-1 lg:w-240 lg:min-h-240 lg:w-320 lg:min-h-320 text-red-500 bg-indigo-500 odd:bg-red-200 odd:-translate-y-12"
+            className="flex-none w-full my-1 lg:m-1 lg:w-240 lg:min-h-240 lg:w-320 lg:min-h-320 odd:bg-red-500 odd:-translate-y-12"
             // style="transform: translateY(-25.4px);"
           >
-            <div className="flex flex-col justify-between w-full h-full p-3 min-h-inherit bg-blue-500 lg:group-hover:opacity-50 lg:hover:scale-11/10x lg:hover:opacity-important transition">
+            <div className="flex flex-col justify-between w-full h-full p-3 min-h-inherit bg-white lg:group-hover:opacity-50 lg:hover:scale-11/10x lg:hover:opacity-important transition">
               <header>
                 <h4 className="text-xs font-bold tracking-widest uppercase font-text text-white">
                   Vue.js Amsterdam
