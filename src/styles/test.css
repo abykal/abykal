@@ -74,8 +74,9 @@ img{
 
 img,svg,video{
     display:block;
-    vertical-align:middle
+    vertical-align:middle;
 }
+
 img,video{
     max-width:100%;
     height:auto
@@ -223,3 +224,4 @@ img,video{
         width:320px
     }
 }
+

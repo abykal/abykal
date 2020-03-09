@@ -17,6 +17,8 @@ const SPLGRT = () => {
         if(day == 1){
             message = `Happy New Year ${year}!`
         }
+    } else {
+        message = '';
     }
 
     return message
@@ -44,4 +46,4 @@ const DAILYGRT = () => {
 
 
 
-export DAILYGRT, SPLGRT;
+export { DAILYGRT, SPLGRT };

@@ -23,3 +23,8 @@ body {
 .font-text {
   font-family: 'Open Sans Condensed', sans-serif;
 }
+
+
+article:nth-child(odd) {
+  background-color: #202022;
+}
