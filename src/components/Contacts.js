@@ -14,6 +14,9 @@ const Contacts = () => {
                 <li className="mx-4">
                     <a href="#" className="flex items-center" target="_blank" rel="noopener noreferrer"><span>GitHub</span></a>
                 </li>
+                <li className="mx-4">
+                    <a href="#" className="flex items-center" target="_blank" rel="noopener noreferrer"><span>Resume</span></a>
+                </li>
             </ul>
         </div>
     )
