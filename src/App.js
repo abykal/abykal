@@ -7,10 +7,12 @@ import Greetings from './components/Greetings'
 
 function App() {
   return (
-    <div>
+    <div className="flex flex-col">
       <Greetings />
-      <Header />
-      <SuperBody />
+      <div className="relative flex flex-col justify-between w-screen mx-auto font-sans text-base max-w-1440 text-dawn md:flex-row">
+        <Header />
+        <SuperBody />
+      </div>
     </div>
   );
 }

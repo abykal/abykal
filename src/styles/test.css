@@ -101,7 +101,7 @@ img,video{
 .bg-dawn{
     background-color:#949495
 }
-.bg-zenith,.group:hover .group-hover\:bg-zenith{
+.bg-zenith,.group:hover .group-hover:bg-zenith{
     background-color:#fff
 }
 
@@ -153,15 +153,15 @@ img,video{
 .text-sunrise{
     color:#f5f5fa
 }
-.hover\:text-zenith:hover,.text-zenith{
+.hover:text-zenith:hover,.text-zenith{
     color:#fff
 }
 
-.hover\:underline:hover,.underline{
+.hover:underline:hover,.underline{
     text-decoration:underline
 }
 
-.group:hover .group-hover\:w-48{
+.group:hover .group-hover:w-48{
     width:48px
 }
 
@@ -195,32 +195,32 @@ img,video{
 }
 
 @media (min-width:1280px){
-    .lg\:leading-none{
+    .lg:leading-none{
         line-height:1
     }
-    .lg\:max-w-496{
+    .lg:max-w-496{
         max-width:496px
     }
-    .lg\:max-w-736{
+    .lg:max-w-736{
         max-width:736px
     }
-    .lg\:min-h-320{
+    .lg:min-h-320{
         min-height:320px
     }
-    .lg\:py-88{
+    .lg:py-88{
         padding-top:88px;
         padding-bottom:88px
     }
-    .lg\:pr-88{
+    .lg:pr-88{
         padding-right:88px
     }
-    .lg\:pl-88{
+    .lg:pl-88{
         padding-left:88px
     }
-    .lg\:text-4xl{
+    .lg:text-4xl{
         font-size:64px
     }
-    .lg\:w-320{
+    .lg:w-320{
         width:320px
     }
 }

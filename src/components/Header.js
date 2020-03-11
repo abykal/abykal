@@ -5,7 +5,7 @@ import Footer from './Footer'
 
 const Header = () => {
     return (
-      <div className="static flex flex-col justify-between w-full p-8 md:max-w-408 lg:max-w-496 md:fixed md:h-screen lg:py-88 lg:pl-88 md:pr-0">
+      <div className="static flex flex-col justify-between w-full p-8 md:max-w-408 lg:max-w-496 md:fixed md:h-screen lg:py-20 lg:pl-20 md:pr-0">
         <div className="flex flex-col">
           
           <h1 className="font-head text-5xl font-bold leading-tight lg:text-6xl lg:leading-none">
