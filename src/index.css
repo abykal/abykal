@@ -28,3 +28,7 @@ body {
 /* article:nth-child(odd) {
   background-color: #202022;
 } */
+
+.art-card {
+  transform: translateY(-25.4px);
+}
