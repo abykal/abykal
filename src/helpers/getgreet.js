@@ -18,7 +18,7 @@ export function splGreet() {
             message = `Happy New Year ${year}!`
         }
     } else {
-        message = '';
+        message = 'Season\'s Greetings';
     }
 
     console.log("SplGreet -> ", message)
