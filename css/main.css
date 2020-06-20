@@ -19,45 +19,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Color schemes */
-.paint-1 {
-  --color-text: #d8d1d1;
-  --color-background: #fff;
-  --color-link: #72af3a;
-  --color-link-hover: #d8d1d1;
-  --color-info: #72af3a;
-}
-
-.paint-2 {
-  --color-text: #333;
-  --color-background: #bee897;
-  --color-link: #72af3a;
-  --color-link-hover: #485a36;
-  --color-info: #fff;
-}
-
-.paint-3 {
+.paint {
   --color-text: #fff;
   --color-background: #193ccf;
   --color-link: #fff;
   --color-link-hover: #000;
   --color-info: #fff473;
-}
-
-.paint-4 {
-  --color-text: #81838c;
-  --color-background: #272927;
-  --color-link: #96e23e;
-  --color-link-hover: #fff;
-  --color-info: #ea7836;
-}
-
-.paint-5 {
-  --color-text: #fff;
-  --color-background: #2b54ee;
-  --color-link: #fff;
-  --color-link-hover: #f7fb40;
-  --color-info: #f7fb40;
 }
 
 /* Fade effect */
@@ -130,7 +97,7 @@ main {
   grid-template-columns: 50% 50%;
   grid-template-rows: auto auto 4em;
   grid-template-areas:
-    "header demos"
+    "header ..."
     "... ..."
     "github ...";
 }
@@ -181,37 +148,6 @@ main {
   margin-right: 10px;
 }
 
-.demos {
-  position: relative;
-  display: block;
-  align-self: end;
-  text-align: center;
-  grid-area: demos;
-}
-
-.demo {
-  margin: 0 0.15em;
-}
-
-.demo:hover,
-.demo:focus {
-  opacity: 0.5;
-}
-
-.demo span {
-  white-space: nowrap;
-  text-transform: lowercase;
-  pointer-events: none;
-}
-
-.demo span::before {
-  content: "#";
-}
-
-a.demo--current {
-  pointer-events: none;
-}
-
 /* Top Navigation Style */
 .ak-links {
   position: relative;
@@ -238,45 +174,7 @@ a.demo--current {
   z-index: 1;
 }
 
-@media screen and (min-width: 55em) {
-  .icon--keyboard {
-    position: absolute;
-    right: 0.55em;
-    bottom: -30%;
-    display: block;
-    width: 54px;
-    height: 46px;
-    fill: var(--color-link);
-  }
-  .demos {
-    display: flex;
-    padding-right: 80px;
-    justify-self: end;
-  }
-  .demo {
-    display: block;
-    width: 17px;
-    height: 17px;
-    margin: 0 4px;
-    border-radius: 50%;
-    background: var(--color-link);
-  }
-  a.demo--current {
-    background: var(--color-link-hover);
-  }
-  .demo span {
-    position: absolute;
-    line-height: 1;
-    right: 100%;
-    display: none;
-    margin: 0 1em 0 0;
-  }
-  .demo--current span {
-    display: block;
-  }
-}
-
-@media screen and (max-width: 55em) {
+@media screen and (max-width: 25em) {
   html,
   body {
     overflow-x: hidden;
