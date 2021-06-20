@@ -5,17 +5,21 @@
 
 ### Connect with me:
 
+[![](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white0e76a8)](https://www.linkedin.com/in/abykal/)
+
 <img align="left" alt="abykal.me" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />
 
 <img align="left" alt="aby_kal | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
 
-<img align="left" alt="abykal | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
+
 <br />
 
 ---
 
 ![AbyKal's GitHub stats](https://github-readme-stats.vercel.app/api?username=abykal&show_icons=true&theme=dark)
 
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=abykal)](https://github.com/abykal)
 
 ![](https://komarev.com/ghpvc/?username=abykal&label=Visitors&color=blueviolet)
 <!--
