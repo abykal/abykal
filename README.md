@@ -1,5 +1,5 @@
 ### Hi there 👋
-## I am Aby Abraham Kalathivila -aka- AbyKal
+### I am Aby Abraham  -aka-  AbyKal
 
 [![Website](https://img.shields.io/website?label=abykal.me&style=for-the-badge&url=https%3A%2F%2Fcodestackr.com)](https://www.abykal.me)
 
