@@ -7,10 +7,9 @@
 
 [![](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white0e76a8)](https://www.linkedin.com/in/abykal/)
 
-<img align="left" alt="abykal.me" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />
+[![](https://img.shields.io/badge/website-%770077B5.svg?&style=for-the-badge&logo=web&logoColor=white0e76a8)](https://www.abykal.me/)
 
-<img align="left" alt="aby_kal | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
-
+[![](https://img.shields.io/badge/twitter-%230067B5.svg?&style=for-the-badge&logo=twitter&logoColor=white0e76a8)](https://www.twitter.com/aby_kal/)
 
 <br />
 
